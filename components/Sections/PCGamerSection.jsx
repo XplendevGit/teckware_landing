@@ -20,7 +20,7 @@ const pcs = [
     link: 'https://wa.link/ebyzyu' // Enlace a la página o conversación de WhatsApp
   },
   {
-    image: 'https://i.postimg.cc/D0hxSfFq/krakenv2-1-Photoroom.png', 
+    image: 'https://i.postimg.cc/HnfswNZ4/krakenv2-2-Photoroom.png', 
     name: 'Kraken V2',
     specs: [
       '32GB RAM', 
@@ -31,6 +31,30 @@ const pcs = [
     ], 
     link: 'https://wa.link/fdbgb2'
   },
+  {
+    image: 'https://i.postimg.cc/Gtr1b15f/titanx-1-Photoroom.png', // URL de la nueva imagen del PC
+    name: 'Titan X', // Nombre del nuevo PC
+    specs: [
+      '64GB RAM', 
+      '4TB SSD', 
+      'NVIDIA RTX 3090', 
+      'MSI Z590', 
+      'Fuente de Poder 1500W'
+    ], 
+    link: 'https://wa.link/8ez5uu' // Enlace del producto
+  },
+  {
+    image: 'https://i.postimg.cc/DyHBGc2v/phoenixpro-1-Photoroom.png', // URL de la nueva imagen del PC
+    name: 'Phoenix Pro', // Nombre del nuevo PC
+    specs: [
+      '64GB RAM', 
+      '3TB SSD', 
+      'NVIDIA RTX 3080 Ti', 
+      'Gigabyte Z590', 
+      'Fuente de Poder 1200W'
+    ], 
+    link: 'https://wa.link/vbg8v0' // Enlace del producto
+  }
 ];
 
 const PCGamerSection = () => {
