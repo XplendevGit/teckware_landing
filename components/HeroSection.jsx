@@ -6,7 +6,7 @@ import Link from "next/link";
 const HeroSection = () => {
   return (
     <div className="relative bg-[#111111] shadow-sm">
-    <section className="text-white min-h-screen max flex items-center justify-evenly px-4 md:px-8 lg:px-16 xl:px-24 max-w-7xl mx-auto flex-col  xl:pt-0 md:flex-row md:text-start text-center pt-20">
+    <section className="text-white min-h-screen max flex items-center justify-evenly px-4 md:px-8 lg:px-16 xl:px-24 max-w-7xl mx-auto flex-col  xl:pt-0 md:flex-row md:text-start text-center pt-36 md:pt-20">
       <div className="relative z-10 mx-auto space-y-4 max-w-xl md:mr-20 mr-4">
         <motion.h1
           initial={{ opacity: 0, y: -50 }}
@@ -39,7 +39,7 @@ const HeroSection = () => {
       </div>
       <div className="relative z-0 w-auto h-auto">
         <Image
-          src="https://i.postimg.cc/Fzw8N5KC/pcprueba-Photoroom.png"
+          src="https://i.postimg.cc/qRx2NJzH/hero-a1-tw-Photo.png"
           alt="Hero Image"
           height={850}
           width={850}
