@@ -5,10 +5,10 @@ import Link from "next/link";
 import Image from "next/image";
 
 const navLinks = [
-  { name: "Home", href: "#home" },
-  { name: "NFT Markets", href: "#markets" },
-  { name: "Shop", href: "#shop" },
-  { name: "About Us", href: "#about" },
+  { name: "PC´s Gamer", href: "#home" },
+  { name: "Servicios", href: "#markets" },
+  { name: "Clientes", href: "#shop" },
+  { name: "Acerca de Nosotros", href: "#about" },
 ];
 
 const Header = () => {

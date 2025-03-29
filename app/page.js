@@ -1,6 +1,7 @@
 "use client"
 import Header from "@/components/Header";
-import HeroSection from "@/components/HeroSection";
+import Portada from "@/components/Sections/Portada";
+import PCGamerSection from "@/components/Sections/PCGamerSection";
 import Image from "next/image";
 
 export default function Home() {
@@ -10,9 +11,14 @@ export default function Home() {
 
     </Header>
 
-    <HeroSection id="hero">
+    <Portada id="main">
 
-    </HeroSection>
+    </Portada>
+
+    <PCGamerSection id="hero">
+
+    </PCGamerSection>
+
     </>
   );
 }

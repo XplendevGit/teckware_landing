@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 
-const HeroSection = () => {
+const Portada = () => {
   return (
     <div className="relative bg-[#111111] shadow-sm">
     <section className="text-white min-h-screen max flex items-center justify-evenly px-4 md:px-8 lg:px-16 xl:px-24 max-w-7xl mx-auto flex-col  xl:pt-0 md:flex-row md:text-start text-center pt-36 md:pt-20">
@@ -54,6 +54,6 @@ const HeroSection = () => {
   );
 };
 
-export default HeroSection;
+export default Portada;
 
 
