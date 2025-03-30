@@ -67,7 +67,7 @@ const PCGamerSection = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5 }}
         >
-          Equipos Gamer Disponibles
+          Equipos Gamer <span className="text-[#3AAFFE]">Disponibles</span>
         </motion.h2>
 
         {/* Si no hay PCs disponibles */}
@@ -80,7 +80,7 @@ const PCGamerSection = () => {
             {pcs.map((pc, index) => (
               <motion.div
                 key={index}
-                className="p-6 rounded-lg shadow-lg transform transition-all"
+                className="bg-[#262829] p-6 rounded-lg shadow-lg transform transition-all border-[2px] border-[#121315] hover:border-[#9B4DE2]"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.2 * index, duration: 0.5 }}
@@ -100,7 +100,7 @@ const PCGamerSection = () => {
 
                   {/* Nombre del PC y características */}
                   <div className="w-full text-center md:pt-0">
-                    <h3 className="text-xl font-semibold text-[#9B4DE2] mb-2">{pc.name}</h3>
+                    <h3 className="text-xl font-semibold text-[#3AAFFE] mb-2">{pc.name}</h3>
                     <ul className="text-white text-sm mb-4">
                       {pc.specs.map((spec, specIndex) => (
                         <li key={specIndex} className="mb-1">{spec}</li>
@@ -109,7 +109,7 @@ const PCGamerSection = () => {
 
                     {/* Botón de "Conocer más" */}
                     <Link href={pc.link}>
-                      <p className="block text-center px-6 py-2 bg-purple-600 text-white font-bold rounded-full hover:bg-purple-700 transition-all hover:scale-105">
+                      <p className="block text-center px-6 py-2 bg-purple-800 text-white font-bold rounded-full hover:bg-purple-600 duration-300 cursor-pointer transition-all">
                         Conocer más
                       </p>
                     </Link>

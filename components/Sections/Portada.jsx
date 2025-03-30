@@ -14,7 +14,7 @@ const Portada = () => {
           transition={{ duration: 0.8 }}
           className="text-4xl md:text-6xl font-bold leading-tight"
         >
-          Domina tu <span className="text-purple-400">Juego</span> con Tecnología Avanzada
+          Domina tu <span className="text-[#FE78FC]">Juego</span> con Tecnología <span className="text-[#3AAFFE]">Avanzada</span>
         </motion.h1>
         <motion.p
           initial={{ opacity: 0, y: 20 }}
@@ -31,7 +31,7 @@ const Portada = () => {
           className="flex justify-center md:justify-start"
         >
           <Link href="#explore">
-            <p className="bg-purple-600 px-5 py-2 rounded-full text-white font-medium hover:bg-purple-800 transition duration-300 cursor-pointer">
+            <p className="bg-purple-900 px-5 py-2 rounded-full hover:text-white font-bold hover:bg-purple-600 transition duration-300 cursor-pointer">
               Explora Ahora
             </p>
           </Link>

@@ -2,6 +2,7 @@
 import Header from "@/components/Header";
 import Portada from "@/components/Sections/Portada";
 import PCGamerSection from "@/components/Sections/PCGamerSection";
+import Services from "@/components/Sections/Services";
 import Image from "next/image";
 
 export default function Home() {
@@ -18,6 +19,10 @@ export default function Home() {
     <PCGamerSection id="hero">
 
     </PCGamerSection>
+
+    <Services id="services">
+      
+    </Services>
 
     </>
   );
