@@ -62,13 +62,21 @@ const PCGamerSection = () => {
     <section className="bg-[#111111] py-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.h2
-          className="text-3xl font-bold text-center text-white mb-10"
+          className="text-3xl font-bold text-white mb-4"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5 }}
         >
           Equipos Gamer <span className="text-[#3AAFFE]">Disponibles</span>
         </motion.h2>
+        <motion.h3
+           className="text-lg text-gray-300 mb-8"
+           initial={{ opacity: 0 }}
+           animate={{ opacity: 1 }}
+           transition={{ duration: 0.5, delay: 0.2 }}
+          >
+              Explora a detalle nuestra gama de equipos profesionales.
+         </motion.h3>
 
         {/* Si no hay PCs disponibles */}
         {pcs.length === 0 ? (

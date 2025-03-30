@@ -11,21 +11,21 @@ const services = [
     title: 'Armado de PCs Gamer',
     category: 'Servicio Personalizado',
     description: 'Te ofrecemos el mejor armado de PCs Gamer, personalizados a tus necesidades y con componentes de alto rendimiento.',
-    icon: 'https://i.postimg.cc/DyHBGc2v/phoenixpro-1-Photoroom.png',
+    icon: 'https://i.postimg.cc/76w6hPqy/gamib-b2-Photoroom.png',
     link: '/servicios/armado-pc',
   },
   {
     title: 'Mantenimiento Preventivo',
     category: 'Mantenimiento Regular',
     description: 'Mantén tu equipo en óptimas condiciones con nuestro servicio de mantenimiento preventivo de PC y consolas.',
-    icon: 'https://i.postimg.cc/DyHBGc2v/phoenixpro-1-Photoroom.png',
+    icon: 'https://i.postimg.cc/ZRdcbcYQ/gaming-a1-Photoroom.png',
     link: '/servicios/mantenimiento',
   },
   {
     title: 'Venta de Componentes',
     category: 'Venta Directa',
     description: 'Conoce nuestra variedad de componentes para PCs y consolas, adecuados para tus necesidades.',
-    icon: 'https://i.postimg.cc/DyHBGc2v/phoenixpro-1-Photoroom.png',
+    icon: 'https://i.postimg.cc/2y5SdHqc/gamimg-3a-Photoroom.png',
     link: '/servicios/venta-componentes',
   },
 ];
@@ -43,12 +43,12 @@ const Services = () => {
           Servicios de <span className="text-[#9B4DE2]">TeckWare</span>
         </motion.h2>
         <motion.h3
-          className="text-lg font-semibold text-gray-300 mb-10"
+          className="text-lg text-gray-300 mb-8"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.2 }}
         >
-          Conoce nuestros servicios especializados para gamers y profesionales.
+          Estos son nuestros servicios especializados para cada cliente.
         </motion.h3>
 
         <div className="flex flex-wrap justify-center gap-8">
