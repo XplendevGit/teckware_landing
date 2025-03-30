@@ -70,8 +70,8 @@ const Services = () => {
                     className="object-contain mb-4"
                   />
                   <h3 className="text-xl font-semibold text-white mb-2">{service.title}</h3>
-                  <p className="text-sm text-gray-200 mb-4">{service.category}</p>
-                  <p className="text-gray-300 text-sm">{service.description}</p>
+                  <p className="text-sm text-gray-300 mb-4">{service.category}</p>
+                  <p className="text-gray-300 text-md">{service.description}</p>
                 </div>
               </Link>
             </motion.div>

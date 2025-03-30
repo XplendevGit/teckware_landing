@@ -36,7 +36,7 @@ const Header = () => {
             </Link>
           ))}
           <Link href="#explore">
-            <p className="bg-purple-600 text-white px-4 py-2 rounded-full hover:bg-purple-800 transition duration-300">
+            <p className="bg-purple-900 text-white px-4 py-2 rounded-full hover:bg-purple-600 transition duration-300 font-bold">
               Contacto
             </p>
           </Link>
@@ -83,7 +83,7 @@ const Header = () => {
               ))}
               <Link href="#explore">
                 <p 
-                 className="bg-purple-600 text-white px-4 py-2 rounded-full hover:bg-purple-800 transition duration-300 text-center"
+                 className="bg-purple-700 text-white font-bold px-4 py-2 rounded-full hover:bg-purple-600 transition duration-300 text-center"
                  onClick={toggleMenu}>
                   Contacto
                 </p>
