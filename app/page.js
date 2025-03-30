@@ -4,6 +4,7 @@ import Portada from "@/components/Sections/Portada";
 import PCGamerSection from "@/components/Sections/PCGamerSection";
 import Services from "@/components/Sections/Services";
 import TestimonialsSection from "@/components/Sections/TestimonialSection";
+import GallerySection from "@/components/Sections/GallerySection";
 import Image from "next/image";
 
 import 'slick-carousel/slick/slick.css';
@@ -31,6 +32,10 @@ export default function Home() {
     <TestimonialsSection id="testimonials">
       
     </TestimonialsSection>
+
+    <GallerySection id="gallery">
+      
+    </GallerySection>
 
     </>
   );

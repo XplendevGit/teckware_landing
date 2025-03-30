@@ -25,7 +25,7 @@ const services = [
     title: 'Venta de Componentes',
     category: 'Venta Directa',
     description: 'Conoce nuestra variedad de componentes para PCs y consolas, adecuados para tus necesidades.',
-    icon: 'https://i.postimg.cc/2y5SdHqc/gamimg-3a-Photoroom.png',
+    icon: 'https://i.postimg.cc/rsH14Zyc/gaming-4a-Photoroom.png',
     link: '/servicios/venta-componentes',
   },
 ];

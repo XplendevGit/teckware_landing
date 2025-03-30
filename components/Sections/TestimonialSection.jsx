@@ -55,7 +55,7 @@ const TestimonialsSection = () => {
     slidesToScroll: 1,  // Desplazamiento de 1 a la vez
     arrows: true,  // Mostrar las flechas de navegación
     autoplay: true,  // Activar el desplazamiento automático
-    autoplaySpeed: 1500,  // Velocidad del desplazamiento automático
+    autoplaySpeed: 2000,  // Velocidad del desplazamiento automático
     cssEase: 'linear',  // Efecto de desplazamiento
     pauseOnHover: true,  // Pausar el desplazamiento automático al pasar el mouse
     margin: "27px",
@@ -99,17 +99,17 @@ const TestimonialsSection = () => {
         </motion.p>
 
         {/* Slider de Testimonios */}
-        <div className="relative slick-slider w-full p-6">
+        <div className="relative slick-slider w-full p-6 cursor-grab">
           <Slider {...settings}>
             {testimonials.map((testimonial, index) => (
               <motion.div
                 key={index}
-                className="bg-[#333333] hover:bg-[#9B4DE2] text-white p-6 gap-6 rounded-lg shadow-lg flex items-center w-full"
+                className="bg-[#333333] hover:bg-[#9B4DE2] text-white p-6 gap-6 rounded-lg shadow-lg flex items-center w-full cursor-grab"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.2 * index, duration: 0.5 }}
               >
-                <p className="text-xl mb-4">“{testimonial.testimonial}”</p>
+                <p className="xl:text-lg lg:text-base text-sm mb-4">“{testimonial.testimonial}”</p>
                 <div className="flex items-center justify-start space-x-4 mb-4">
                   <Image
                     src={testimonial.image}
@@ -119,7 +119,7 @@ const TestimonialsSection = () => {
                     className="rounded-full"
                   />
                   <div>
-                    <h3 className="font-semibold">{testimonial.name}</h3>
+                    <h3 className="font-semibold md:text-base text-sm">{testimonial.name}</h3>
                     <p className="text-sm text-gray-400">{testimonial.position}</p>
                   </div>
                 </div>
